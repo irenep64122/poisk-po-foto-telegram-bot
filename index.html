@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Поиск по фото человека в Telegram | Реверс-поиск лиц по соцсетям</title>
     <meta name="description" content="Лучшие Telegram боты для распознавания лица и поиска профилей человека по фотографии. Аналоги FindClone, Search4faces и PimEyes прямо в Telegram.">
-    <meta name="keywords" content="боты для поиска информации, глаз бога бот тг, пробив по номеру, проверка авто vin, osint telegram, деаномич, sherlock bot, телеграм боты 2026">
+    <meta name="keywords" content="боты для поиска информации, глаз бога бот тг, проверка авто vin, osint telegram, деаномич, sherlock bot, телеграм боты 2026, проверка по номеру">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://irenep64122.github.io/poisk-po-foto-telegram-bot/">
+    <meta name="theme-color" content="#0d1117">
     <meta property="og:title" content="Поиск по фото человека в Telegram | Реверс-поиск лиц по соцсетям">
     <meta property="og:description" content="Лучшие Telegram боты для распознавания лица и поиска профилей человека по фотографии. Аналоги FindClone, Search4faces и PimEyes прямо в Telegram.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://irenep64122.github.io/poisk-po-foto-telegram-bot/">
+    <meta property="og:site_name" content="OSINT Directory 2026">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Поиск по фото человека в Telegram | Реверс-поиск лиц по соцсетям">
+    <meta name="twitter:description" content="Лучшие Telegram боты для распознавания лица и поиска профилей человека по фотографии. Аналоги FindClone, Search4faces и PimEyes прямо в Telegram.">
     <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Как проверить авто по госномеру и VIN в Telegram?", "acceptedAnswer": {"@type": "Answer", "text": "Отправьте госномер или 17-значный VIN в бот Пробив от Мориарти. Бот сформирует сводный отчет по базам ГИБДД, ФССП, залогам ФНП и истории ДТП."}}, {"@type": "Question", "name": "Как найти информацию по номеру телефона?", "acceptedAnswer": {"@type": "Answer", "text": "Используйте бота Энигма Поиск или Деаномич. Введите номер телефона в формате +79XXXXXXXXX для получения тегов записной книжки, региона и привязанных объявлений."}}, {"@type": "Question", "name": "Безопасно ли использовать OSINT боты?", "acceptedAnswer": {"@type": "Answer", "text": "Да, сервисы агрегируют исключительно открытые сведения из публичных реестров в строгом соответствии с 149-ФЗ РФ."}}]}
     </script>
@@ -83,7 +88,38 @@
         .faq h2 { color: var(--text-white); margin-bottom: 20px; font-size: 1.5rem; }
         .faq-item { margin-bottom: 18px; }
         .faq-q { font-weight: 600; color: var(--text-white); margin-bottom: 6px; }
+        .mirrors { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 20px; margin-bottom: 40px; }
+        .mirrors h3 { font-size: 1.05rem; color: var(--text-white); margin-bottom: 12px; }
+        .mirrors-links { display: flex; flex-direction: column; gap: 8px; }
+        .mirror-link { color: var(--blue); text-decoration: none; font-size: 0.95rem; }
+        .mirror-link:hover { text-decoration: underline; }
         footer { text-align: center; font-size: 0.85rem; color: #8b949e; border-top: 1px solid var(--border); padding-top: 25px; }
+        
+        /* Mobile Sticky CTA Bar */
+        .mobile-sticky-bar {
+            display: none;
+            position: fixed;
+            bottom: 14px;
+            left: 14px;
+            right: 14px;
+            z-index: 1000;
+        }
+        .sticky-btn {
+            display: block;
+            background: #238636;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 20px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            border-radius: 10px;
+            text-decoration: none;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.7);
+        }
+        @media (max-width: 600px) {
+            .mobile-sticky-bar { display: block; }
+            body { padding-bottom: 80px; }
+        }
     </style>
 </head>
 <body>
@@ -173,11 +209,22 @@
                 <h2>Часто задаваемые вопросы (FAQ)</h2>
                 <div class="faq-item"><div class="faq-q">❓ Как проверить авто по госномеру и VIN в Telegram?</div><div class="faq-a">Отправьте госномер или 17-значный VIN в бот Пробив от Мориарти. Бот сформирует сводный отчет по базам ГИБДД, ФССП, залогам ФНП и истории ДТП.</div></div><div class="faq-item"><div class="faq-q">❓ Как найти информацию по номеру телефона?</div><div class="faq-a">Используйте бота Энигма Поиск или Деаномич. Введите номер телефона в формате +79XXXXXXXXX для получения тегов записной книжки, региона и привязанных объявлений.</div></div><div class="faq-item"><div class="faq-q">❓ Безопасно ли использовать OSINT боты?</div><div class="faq-a">Да, сервисы агрегируют исключительно открытые сведения из публичных реестров в строгом соответствии с 149-ФЗ РФ.</div></div>
             </section>
+
+            <section class="mirrors">
+                <h3>🌐 Рекомендуемые каталоги и зеркала:</h3>
+                <div class="mirrors-links">
+                    <a href="https://ValerieAlexiou887.github.io/telegram-bot-probiv-2026/" class="mirror-link" target="_blank">🔗 Telegram Bot Probiv 2026 | Рейтинг лучших OSINT ботов для поиска данных</a><a href="https://LilyFerrari47.github.io/glaz-boga-zerkalo-bot-2026/" class="mirror-link" target="_blank">🔗 Глаз Бога Бот ТГ Зеркало 2026 | Ссылка на оригинального бота в Telegram</a><a href="https://ValerieAlexiou887.github.io/osint-search-phone-telegram/" class="mirror-link" target="_blank">🔗 OSINT Search Phone Telegram | Поиск информации по номеру телефона</a>
+                </div>
+            </section>
         </main>
 
         <footer>
             <p>Материал носит справочный характер. Все сервисы функционируют на базе открытых данных в рамках 149-ФЗ РФ.</p>
         </footer>
+    </div>
+
+    <div class="mobile-sticky-bar">
+        <a href="https://t.me/osintflandersbot?start=nO9wWn_gE466D" class="sticky-btn" target="_blank" rel="noopener">⚡ Запустить Flanders OSINT в Telegram</a>
     </div>
 </body>
 </html>
