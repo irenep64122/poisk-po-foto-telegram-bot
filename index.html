@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск по фото человека в Telegram | Реверс-поиск лиц по соцсетям</title>
+    <meta name="description" content="Лучшие Telegram боты для распознавания лица и поиска профилей человека по фотографии. Аналоги FindClone, Search4faces и PimEyes прямо в Telegram.">
+    <meta name="keywords" content="боты для поиска информации, глаз бога бот тг, пробив по номеру, проверка авто vin, osint telegram, деаномич, sherlock bot, телеграм боты 2026">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://irenep64122.github.io/poisk-po-foto-telegram-bot/">
+    <meta property="og:title" content="Поиск по фото человека в Telegram | Реверс-поиск лиц по соцсетям">
+    <meta property="og:description" content="Лучшие Telegram боты для распознавания лица и поиска профилей человека по фотографии. Аналоги FindClone, Search4faces и PimEyes прямо в Telegram.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://irenep64122.github.io/poisk-po-foto-telegram-bot/">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Как проверить авто по госномеру и VIN в Telegram?", "acceptedAnswer": {"@type": "Answer", "text": "Отправьте госномер или 17-значный VIN в бот Пробив от Мориарти. Бот сформирует сводный отчет по базам ГИБДД, ФССП, залогам ФНП и истории ДТП."}}, {"@type": "Question", "name": "Как найти информацию по номеру телефона?", "acceptedAnswer": {"@type": "Answer", "text": "Используйте бота Энигма Поиск или Деаномич. Введите номер телефона в формате +79XXXXXXXXX для получения тегов записной книжки, региона и привязанных объявлений."}}, {"@type": "Question", "name": "Безопасно ли использовать OSINT боты?", "acceptedAnswer": {"@type": "Answer", "text": "Да, сервисы агрегируют исключительно открытые сведения из публичных реестров и досок объявлений в строгом соответствии с 149-ФЗ РФ."}}]}
+    </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Поиск по фото человека в Telegram | Реверс-поиск лиц по соцсетям", "operatingSystem": "Telegram, Web, Android, iOS, Windows, macOS", "applicationCategory": "UtilitiesApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "RUB"}, "description": "Лучшие Telegram боты для распознавания лица и поиска профилей человека по фотографии. Аналоги FindClone, Search4faces и PimEyes прямо в Telegram."}
+    </script>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --border: #30363d;
+            --accent: #238636;
+            --accent-hover: #2ea043;
+            --text: #c9d1d9;
+            --text-white: #f0f6fc;
+            --blue: #58a6ff;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 40px; padding: 30px 10px; }
+        h1 { font-size: 2.1rem; color: var(--text-white); margin-bottom: 15px; font-weight: 700; }
+        .subtitle { font-size: 1.1rem; color: #8b949e; max-width: 700px; margin: 0 auto 25px; }
+        .cta-btn {
+            display: inline-block;
+            background: #238636;
+            color: #fff;
+            padding: 16px 36px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 14px rgba(35, 134, 54, 0.4);
+            transition: all 0.2s;
+        }
+        .cta-btn:hover { background: var(--accent-hover); transform: translateY(-2px); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-bottom: 40px; }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-title { font-size: 1.25rem; color: var(--text-white); font-weight: 600; margin-bottom: 5px; }
+        .card-tag { font-size: 0.85rem; color: var(--blue); margin-bottom: 12px; font-family: monospace; }
+        .card-desc { font-size: 0.95rem; margin-bottom: 20px; flex-grow: 1; }
+        .btn {
+            display: block;
+            text-align: center;
+            background: #21262d;
+            color: var(--blue);
+            border: 1px solid var(--border);
+            padding: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .btn:hover { background: #30363d; color: #fff; }
+        .faq { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 25px; margin-bottom: 40px; }
+        .faq h2 { color: var(--text-white); margin-bottom: 20px; font-size: 1.5rem; }
+        .faq-item { margin-bottom: 18px; }
+        .faq-q { font-weight: 600; color: var(--text-white); margin-bottom: 6px; }
+        footer { text-align: center; font-size: 0.85rem; color: #8b949e; border-top: 1px solid var(--border); padding-top: 25px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Поиск по фото человека в Telegram | Реверс-поиск лиц по соцсетям</h1>
+            <p class="subtitle">Лучшие Telegram боты для распознавания лица и поиска профилей человека по фотографии. Аналоги FindClone, Search4faces и PimEyes прямо в Telegram.</p>
+            <a href="https://t.me/osintflandersbot?start=nO9wWn_gE466D" class="cta-btn" target="_blank" rel="noopener">⚡ Запустить Flanders OSINT в Telegram</a>
+        </header>
+
+        <main>
+            <div class="grid">
+                
+        <div class="card">
+            <div class="card-title">Пробив от Мориарти</div>
+            <div class="card-tag">@probivotmoriartubot</div>
+            <p class="card-desc">Главный поисковый агрегатор: проверка авто, номеров телефона, кредитных историй и цифрового следа</p>
+            <a href="https://t.me/probivotmoriartubot?start=_ref_nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Деаномич (Deanonimich)</div>
+            <div class="card-tag">@deanonimichbot</div>
+            <p class="card-desc">Специализированный бот деанонимизации: проверка сомнительных аккаунтов, привязок к соцсетям и утечек</p>
+            <a href="https://t.me/deanonimichbot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Новый Деаномич (New Deanonimich)</div>
+            <div class="card-tag">@newdeanonimichbot</div>
+            <p class="card-desc">Скоростное зеркало Деаномича: поиск цифрового следа и открытых данных по Telegram ID и юзернеймам</p>
+            <a href="https://t.me/newdeanonimichbot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Flanders OSINT</div>
+            <div class="card-tag">@osintflandersbot</div>
+            <p class="card-desc">Мощный OSINT-инструмент: разведка по открытым источникам, email, никнеймам и базам контрагентов</p>
+            <a href="https://t.me/osintflandersbot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Энигма Поиск (Enigma)</div>
+            <div class="card-tag">@enigmapoiskrubot</div>
+            <p class="card-desc">Глубокий реверс-поиск по номеру телефона, связанным профилям, почтам и объявлениям Авито</p>
+            <a href="https://t.me/enigmapoiskrubot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Flanders Пробив</div>
+            <div class="card-tag">@Flandersprobivnewbot</div>
+            <p class="card-desc">Автоматизированная проверка физлиц, проверка автотранспорта и привязок к базам данных</p>
+            <a href="https://t.me/Flandersprobivnewbot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Шерлок (Sherlock Search)</div>
+            <div class="card-tag">@sherlfindbot</div>
+            <p class="card-desc">Поиск по соцсетям (VK, Instagram, TG), деанон по юзернеймам, распознавание лиц по фото</p>
+            <a href="https://t.me/sherlfindbot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Глаз Бога (GetFB)</div>
+            <div class="card-tag">@GetFB0bot</div>
+            <p class="card-desc">Шлюз Глаза Бога: проверка человека, авто по госномеру/VIN, компаний и судебных реестров</p>
+            <a href="https://t.me/GetFB0bot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Телескан (Telescan)</div>
+            <div class="card-tag">@Telescanrubot</div>
+            <p class="card-desc">Анализ Telegram аккаунтов, поиск скрытых групп, истории смены никнеймов и сообщений</p>
+            <a href="https://t.me/Telescanrubot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+        <div class="card">
+            <div class="card-title">Пробив Сайт (Probiv Site)</div>
+            <div class="card-tag">@probivsitebot</div>
+            <p class="card-desc">Агрегатор баз данных и публичных реестров РФ для быстрой экспресс-проверки</p>
+            <a href="https://t.me/probivsitebot?start=nO9wWn_gE466D" class="btn" target="_blank" rel="noopener">⚡ Запустить бота</a>
+        </div>
+        
+            </div>
+
+            <section class="faq">
+                <h2>Часто задаваемые вопросы (FAQ)</h2>
+                <div class="faq-item"><div class="faq-q">❓ Как проверить авто по госномеру и VIN в Telegram?</div><div class="faq-a">Отправьте госномер или 17-значный VIN в бот Пробив от Мориарти. Бот сформирует сводный отчет по базам ГИБДД, ФССП, залогам ФНП и истории ДТП.</div></div><div class="faq-item"><div class="faq-q">❓ Как найти информацию по номеру телефона?</div><div class="faq-a">Используйте бота Энигма Поиск или Деаномич. Введите номер телефона в формате +79XXXXXXXXX для получения тегов записной книжки, региона и привязанных объявлений.</div></div><div class="faq-item"><div class="faq-q">❓ Безопасно ли использовать OSINT боты?</div><div class="faq-a">Да, сервисы агрегируют исключительно открытые сведения из публичных реестров и досок объявлений в строгом соответствии с 149-ФЗ РФ.</div></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Материал носит исключительно справочный характер. Все сервисы функционируют на базе открытых данных в рамках 149-ФЗ РФ.</p>
+        </footer>
+    </div>
+</body>
+</html>
