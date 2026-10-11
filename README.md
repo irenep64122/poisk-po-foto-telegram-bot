@@ -1,17 +1,17 @@
-# 📸 Поиск человека по фото в Telegram: боты распознавания лиц и соцсетей
+# 📸 Flanders OSINT — Поиск человека по фото в Telegram: распознавание лиц и соцсетей
 
-[![Telegram](https://img.shields.io/badge/Telegram-Каталог_Ботов-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/sherlfindbot?start=nO9wWn_gE466D)
-[![Status](https://img.shields.io/badge/Статус-Активен_2026-brightgreen?style=for-the-badge)](https://t.me/sherlfindbot?start=nO9wWn_gE466D)
-[![OSINT](https://img.shields.io/badge/Методология-OSINT_Framework-blueviolet?style=for-the-badge)](https://t.me/sherlfindbot?start=nO9wWn_gE466D)
-[![Security](https://img.shields.io/badge/Конфиденциальность-Анонимно-orange?style=for-the-badge)](https://t.me/sherlfindbot?start=nO9wWn_gE466D)
+[![Telegram](https://img.shields.io/badge/Telegram-Каталог_Ботов-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/osintflandersbot?start=nO9wWn_gE466D)
+[![Status](https://img.shields.io/badge/Статус-Активен_2026-brightgreen?style=for-the-badge)](https://t.me/osintflandersbot?start=nO9wWn_gE466D)
+[![OSINT](https://img.shields.io/badge/Методология-OSINT_Framework-blueviolet?style=for-the-badge)](https://t.me/osintflandersbot?start=nO9wWn_gE466D)
+[![Security](https://img.shields.io/badge/Конфиденциальность-Анонимно-orange?style=for-the-badge)](https://t.me/osintflandersbot?start=nO9wWn_gE466D)
 
 Лучшие Telegram боты для распознавания лица и поиска профилей человека по фотографии. Аналоги FindClone, Search4faces и PimEyes прямо в Telegram.
 
 ---
 
 ### ⚡ Быстрый запуск инструмента
-> 🚀 **Основной рабочий бот (Шерлок (Sherlock Search)):**  
-> 👉 **[КЛИКНИТЕ ДЛЯ ПЕРЕХОДА В БОТ](https://t.me/sherlfindbot?start=nO9wWn_gE466D)** 👈  
+> 🚀 **Основной рабочий бот (Flanders OSINT):**  
+> 👉 **[КЛИКНИТЕ ДЛЯ ПЕРЕХОДА В БОТ](https://t.me/osintflandersbot?start=nO9wWn_gE466D)** 👈  
 > *(Без спама, моментальная выдача результатов по открытым источникам)*
 
 ---
@@ -32,11 +32,16 @@
 
 | Сервис / Бот | Идентификатор | Специализация и ключевые функции | Ссылка на шлюз |
 | :--- | :--- | :--- | :--- |
-| **[Пробив от Мориарти](https://t.me/probivotmoriarty_robot?start=_ref_nO9wWn_gE466D)** | `@probivotmoriarty_robot` | Агрегатор баз данных, проверка авто, номеров телефона, кредитных историй и цифрового следа | [Запустить бот](https://t.me/probivotmoriarty_robot?start=_ref_nO9wWn_gE466D) |
+| **[Пробив от Мориарти](https://t.me/probivotmoriartubot?start=_ref_nO9wWn_gE466D)** | `@probivotmoriartubot` | Главный поисковый агрегатор: проверка авто, номеров телефона, кредитных историй и цифрового следа | [Запустить бот](https://t.me/probivotmoriartubot?start=_ref_nO9wWn_gE466D) |
+| **[Деаномич (Deanonimich)](https://t.me/deanonimichbot?start=nO9wWn_gE466D)** | `@deanonimichbot` | Специализированный бот деанонимизации: проверка сомнительных аккаунтов, привязок к соцсетям и утечек | [Запустить бот](https://t.me/deanonimichbot?start=nO9wWn_gE466D) |
+| **[Новый Деаномич (New Deanonimich)](https://t.me/newdeanonimichbot?start=nO9wWn_gE466D)** | `@newdeanonimichbot` | Скоростное зеркало Деаномича: поиск цифрового следа и открытых данных по Telegram ID и юзернеймам | [Запустить бот](https://t.me/newdeanonimichbot?start=nO9wWn_gE466D) |
+| **[Flanders OSINT](https://t.me/osintflandersbot?start=nO9wWn_gE466D)** ⭐ **Рекомендуем** | `@osintflandersbot` | Мощный OSINT-инструмент: разведка по открытым источникам, email, никнеймам и базам контрагентов | [Запустить бот](https://t.me/osintflandersbot?start=nO9wWn_gE466D) |
 | **[Энигма Поиск (Enigma)](https://t.me/enigmapoiskrubot?start=nO9wWn_gE466D)** | `@enigmapoiskrubot` | Глубокий реверс-поиск по номеру телефона, связанным профилям, почтам и объявлениям Авито | [Запустить бот](https://t.me/enigmapoiskrubot?start=nO9wWn_gE466D) |
-| **[Шерлок (Sherlock Search)](https://t.me/sherlfindbot?start=nO9wWn_gE466D)** ⭐ **Рекомендуем** | `@sherlfindbot` | Поиск по соцсетям (VK, Instagram, TG), деанон по юзернеймам, распознавание лиц по фото | [Запустить бот](https://t.me/sherlfindbot?start=nO9wWn_gE466D) |
-| **[Глаз Бога 2026 (Рабочее зеркало)](https://t.me/GetFB0bot?start=nO9wWn_gE466D)** | `@GetFB0bot` | Официальный шлюз-зеркало: проверка физлиц, авто по VIN/госномеру, компаний и судебных дел | [Запустить бот](https://t.me/GetFB0bot?start=nO9wWn_gE466D) |
-| **[Телескан (Telescan OSINT)](https://t.me/Telescanrubot?start=nO9wWn_gE466D)** | `@Telescanrubot` | Анализ Telegram аккаунтов, поиск скрытых групп, истории смены никнеймов и сообщений | [Запустить бот](https://t.me/Telescanrubot?start=nO9wWn_gE466D) |
+| **[Flanders Пробив](https://t.me/Flandersprobivnewbot?start=nO9wWn_gE466D)** | `@Flandersprobivnewbot` | Автоматизированная проверка физлиц, проверка автотранспорта и привязок к базам данных | [Запустить бот](https://t.me/Flandersprobivnewbot?start=nO9wWn_gE466D) |
+| **[Шерлок (Sherlock Search)](https://t.me/sherlfindbot?start=nO9wWn_gE466D)** | `@sherlfindbot` | Поиск по соцсетям (VK, Instagram, TG), деанон по юзернеймам, распознавание лиц по фото | [Запустить бот](https://t.me/sherlfindbot?start=nO9wWn_gE466D) |
+| **[Глаз Бога (GetFB)](https://t.me/GetFB0bot?start=nO9wWn_gE466D)** | `@GetFB0bot` | Шлюз Глаза Бога: проверка человека, авто по госномеру/VIN, компаний и судебных реестров | [Запустить бот](https://t.me/GetFB0bot?start=nO9wWn_gE466D) |
+| **[Телескан (Telescan)](https://t.me/Telescanrubot?start=nO9wWn_gE466D)** | `@Telescanrubot` | Анализ Telegram аккаунтов, поиск скрытых групп, истории смены никнеймов и сообщений | [Запустить бот](https://t.me/Telescanrubot?start=nO9wWn_gE466D) |
+| **[Пробив Сайт (Probiv Site)](https://t.me/probivsitebot?start=nO9wWn_gE466D)** | `@probivsitebot` | Агрегатор баз данных и публичных реестров РФ для быстрой экспресс-проверки | [Запустить бот](https://t.me/probivsitebot?start=nO9wWn_gE466D) |
 
 ---
 
@@ -71,7 +76,7 @@
 
 ## 🛠️ Пошаговая инструкция по использованию
 
-1. **Выберите инструмент:** Перейдите по ссылке на [**Шерлок (Sherlock Search)**](https://t.me/sherlfindbot?start=nO9wWn_gE466D) или воспользуйтесь таблицей выше.
+1. **Выберите инструмент:** Перейдите по ссылке на [**Flanders OSINT**](https://t.me/osintflandersbot?start=nO9wWn_gE466D) или воспользуйтесь таблицей выше.
 2. **Активация:** Нажмите кнопку `Start` (`/start`) в диалоговом окне Telegram.
 3. **Отправка запроса:** Введите известный идентификатор:
    * Номер телефона в международном формате (например, `+79XXXXXXXXX`);
